@@ -83,6 +83,8 @@ def jogar():
                 lin()
                 if total_gols > 5000:
                     print("PARABENS VOCE GANHOU!!")
+                else:
+                    print("Voce perdeu :(")
                 break
     lin()
     print("Estatísticas Finais:")
